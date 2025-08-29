@@ -5,13 +5,13 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <div>
+      <div className="bg-red-500">
         Tela Inicial
         <Button asChild>
           <Link href={"/auth/sign-up"}>Tela de Cadastro</Link>
         </Button>
-        <InputPassword />
       </div>
+      <InputPassword></InputPassword>
     </main>
   );
 }

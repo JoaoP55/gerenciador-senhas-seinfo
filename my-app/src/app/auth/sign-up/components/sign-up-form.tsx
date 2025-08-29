@@ -4,7 +4,7 @@ import {
   TSignUpInputSchema,
   TSignUpOutputSchema,
 } from "@/@core/modules/auth/domain/sign-up.entity";
-import { signUpSchema } from "@/@core/modules/auth/domain/schema/sign-up.schema";
+import { signUpSchema } from "@/@core/modules/auth/schema/sign-up.schema";
 import { Button } from "@/components/ui/button";
 import { CardContent, CardFooter } from "@/components/ui/card";
 import {
@@ -101,7 +101,6 @@ const SignUpForm = () => {
             <Link href={"/auth/sign-in"}>Já possuo uma conta</Link>
           </Button>
         </CardFooter>
-        <div>formulário</div>
       </form>
     </FormProvider>
   );
