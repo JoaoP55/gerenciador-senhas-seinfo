@@ -11,7 +11,7 @@ import SignUpForm from "./components/sign-up-form";
 
 const SignUpPage = () => {
   return (
-    <section className="flex h-screen w-screen items-center justify-center bg-amber-300 px-5">
+    <section className="flex h-screen w-screen items-center justify-center">
       <Card className="w-full max-w-md">
         <CardHeader>
           <CardTitle>Crie sua conta</CardTitle>
